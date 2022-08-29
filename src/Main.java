@@ -8,6 +8,7 @@ public class Main {
 
     public static void print(List<String> menu) {
         int i = 1;
+        System.out.println("--------------------------");
         for (String s : menu) {
             System.out.println((i++) + " ) " + s);
         }
@@ -20,7 +21,7 @@ public class Main {
             System.out.print("Enter your Choose: ");
             int input = new Scanner(System.in).nextInt();
             switch (input) {
-                case 1 -> System.out.println("");
+                case 1 -> Q1.showQ1Menu();
                 case 2 -> System.out.println("");
                 case 3 -> System.out.println("");
                 case 4 -> System.out.println("");
