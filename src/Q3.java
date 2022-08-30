@@ -8,6 +8,7 @@ public class Q3 {
         List<Integer> numbers = new ArrayList<>(Arrays.asList(3, 7, 9, 2, 5, 5, 8, 5, 6, 3, 4, 7, 3, 1));
         System.out.println(numbers);
         System.out.println(inappropriateDelete(numbers));
+
     }
 
     public static List<Integer> inappropriateDelete(List<Integer> list) {
