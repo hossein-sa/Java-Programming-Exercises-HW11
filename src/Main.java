@@ -21,10 +21,10 @@ public class Main {
             int input = new Scanner(System.in).nextInt();
             switch (input) {
                 case 1 -> Q1.showQ1();
-                case 2 -> System.out.println("");
+                case 2 -> Q2.showQ2();
                 case 3 -> System.out.println("");
                 case 4 -> System.out.println("");
-                case 5 -> System.exit(1);
+                case 5 -> System.exit(110);
                 default -> System.out.println("Invalid Input");
             }
         }
