@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    public static final List<String> mainMenu = Arrays.asList("Question 1: ", "Question 2: ", "Question 3: ");
+    public static final List<String> mainMenu = Arrays.asList("Question 1", "Question 2", "Question 3", "Question 4","Exit");
 
     public static void print(List<String> menu) {
         int i = 1;
@@ -25,9 +25,7 @@ public class Main {
                 case 2 -> System.out.println("");
                 case 3 -> System.out.println("");
                 case 4 -> System.out.println("");
-                case 5 -> System.out.println("");
-                case 6 -> System.out.println("");
-                case 7 -> System.exit(1);
+                case 5 -> System.exit(1);
                 default -> System.out.println("Invalid Input");
             }
         }
