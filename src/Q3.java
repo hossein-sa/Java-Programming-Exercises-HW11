@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Q3 {
     public static void showQ3() {
-        List<Integer> numbers = new ArrayList<Integer>(Arrays.asList(3, 7, 9, 2, 5, 5, 8, 5, 6, 3, 4, 7, 3, 1));
+        List<Integer> numbers = new ArrayList<>(Arrays.asList(3, 7, 9, 2, 5, 5, 8, 5, 6, 3, 4, 7, 3, 1));
         System.out.println(numbers);
         System.out.println(inappropriateDelete(numbers));
     }
