@@ -11,18 +11,18 @@ public class Q3 {
     }
 
     public static List<Integer> inappropriateDelete(List<Integer> list) {
-        List<Integer> resultList = new ArrayList<>();
         if (list != null && !list.isEmpty()) {
             if (list.size() % 2 != 0)
                 list.remove(list.size() - 1);
             for (int i = 1; i < list.size(); i += 2) {
-                if (list.get(i) >= list.get(i - 1)) {
-                    resultList.add(list.get(i - 1));
-                    resultList.add(list.get(i));
+                if (list.get(i) < list.get(i - 1)) {
+                    list.remove(i - 1);
+                    list.remove(i - 1);
+                    i -= 2;
                 }
             }
-            return resultList;
+            return list;
         }
-        return resultList;
+        return list;
     }
 }
