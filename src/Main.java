@@ -1,10 +1,9 @@
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    public static final List<String> mainMenu = Arrays.asList("Question 1", "Question 2", "Question 3", "Question 4","Exit");
+    public static final List<String> mainMenu = Arrays.asList("Question 1", "Question 2", "Question 3", "Question 4", "Exit");
 
     public static void print(List<String> menu) {
         int i = 1;
@@ -21,7 +20,7 @@ public class Main {
             System.out.print("Enter your Choose: ");
             int input = new Scanner(System.in).nextInt();
             switch (input) {
-                case 1 -> Q1.showQ1Menu();
+                case 1 -> Q1.showQ1();
                 case 2 -> System.out.println("");
                 case 3 -> System.out.println("");
                 case 4 -> System.out.println("");
