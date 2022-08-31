@@ -7,6 +7,8 @@ public class Q2 {
     public static Set<Character> secondTreeSet = new TreeSet<>();
 
     public static void showQ2() {
+        firstTreeSet.clear();
+        secondTreeSet.clear();
         while (firstTreeSet.size() < 10 || secondTreeSet.size() < 10){
             if (firstTreeSet.size() < 10 ){
                 firstTreeSet.add(getRandChar());

@@ -20,7 +20,7 @@ public class Q1 {
         System.out.println(permuteMap.values());
 
         //Part b of Question1:
-        System.out.println("If you want to check you can input your second choice otherwise just hit enter: ");
+        System.out.print("If you want to check you can input your second choice otherwise just hit enter: ");
         String checkInput = new Scanner(System.in).nextLine();
         if (Objects.equals(checkInput, "")) {
             System.out.println("OK!");
