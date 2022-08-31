@@ -7,6 +7,7 @@ public class Q4 {
         myHashMap.put(1,"Aref");
         myHashMap.put(2,"Ali");
         myHashMap.put(3,"Taha");
+        myHashMap.put(3,"Saber");
 
 
         //check for contain a specific key

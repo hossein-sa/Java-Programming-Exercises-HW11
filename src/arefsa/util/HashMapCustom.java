@@ -9,8 +9,10 @@ public class HashMapCustom<K, V> {
 
 
     public void put(K key, V value) {
-        this.key.add(key);
-        this.value.add(value);
+        if (!contain(key)){
+            this.key.add(key);
+            this.value.add(value);
+        }
     }
 
     public boolean contain(K key) {
